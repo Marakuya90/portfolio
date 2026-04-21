@@ -1,0 +1,28 @@
+<svg width="497.868225" height="497.868225" viewBox="0 0 497.868 497.868" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="filter_372_61_dd" x="0.000000" y="0.000000" width="497.868225" height="497.868225"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dx="0" dy="6"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.47 0"/>
+            <feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+        </filter>
+        <linearGradient x1="277.083191" y1="-6.511820" x2="258.317078" y2="393.860352" id="paint_linear_372_61_0"
+                        gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+            <stop offset="1.000000" stop-color="#FF8233"/>
+        </linearGradient>
+    </defs>
+    <g filter="url(#filter_372_61_dd)">
+        <circle id="Ellipse 4" cx="248.934097" cy="248.934097" r="242.934113" fill="#FFFFFF"
+                fill-opacity="1.000000"/>
+    </g>
+    <circle id="Ellipse 4" cx="248.934097" cy="248.934097" r="245.934113" stroke="url(#paint_linear_372_61_0)"
+            stroke-opacity="1.000000" stroke-width="6.000000"/>
+</svg>
