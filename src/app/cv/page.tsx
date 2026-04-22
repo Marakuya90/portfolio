@@ -33,6 +33,7 @@ const experience = [
     period: 'январь 2024 - наст. время'
   }
 ]
+const meetups = ['photo', 'photo', 'photo']
 const Cv = () => {
   return (
     <div className={styles.cv}>
@@ -57,6 +58,10 @@ const Cv = () => {
               <h3>{experience.position}</h3>
             </li>)}
         </ul>
+      </section>
+      <section>
+        <h2 className={`${styles.heading} text-3xl`}>Участие в конференциях</h2>
+        <p>здесь слайдер с фотками с митапов</p>
       </section>
     </div>
   );

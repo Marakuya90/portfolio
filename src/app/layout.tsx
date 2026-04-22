@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} 
         antialiased container pt-8 flex flex-col`}>
       <Header className={'self-center pb-16'}/>
-      <Banner/>
+      <Banner className={'pb-8'}/>
         {children}
       </body>
     </html>
