@@ -6,7 +6,8 @@ const Banner = () => {
   const pathname = usePathname();
   const pageName = pathname.substring(pathname.lastIndexOf('/') + 1)
 
-  const title = pageName === '' ? 'PORTFOLIO' : pageName.toUpperCase()
+  const title = pageName === '' ? 'PORTFOLIO'
+    : pageName === 'cv' ? 'Curriculum vitae ' : pageName.toUpperCase()
   return (
     <div className={styles.banner}>
       <h1 className={'font-mono text-xs uppercase tracking-[0.4em] font-semibold'}>ЩËГОЛЕВА ЮЛИЯ &bull; FRONTEND DEVELOPER</h1>
