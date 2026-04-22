@@ -4,29 +4,29 @@ import styles from './Projects.module.css';
 import {useState} from "react";
 import NewButton from "@/app/components/ui/buttons/NewButton/NewButton";
 import Link from 'next/link'
+import Image from "next/image";
+import {maxHeaderSize} from "node:http";
 
 const links = [
-  { href: '/shop/electronics', label: 'Electronics' },
-  { href: '/shop/clothing', label: 'Clothing' },
-  { href: '/shop/books', label: 'Books' },
+  { href: 'https://kvadroom.ru', label: 'Квадрум', icon: 'kvadroom' },
+  { href: 'https://novostroy-m.ru', label: 'Новострой-М', icon: 'nvs-m' },
+  { href: 'https://novostroy-spb.ru', label: 'Новострой-Спб', icon: 'nvs-spb' },
+  { href: 'https://qwizard.ru', label: 'Квизард', icon: 'qwizard' },
 ]
 
 const Projects = () => {
   const [project, setProject] = useState(0);
 
   return (
-    <div className={styles.projects}>
+    <div className={`${styles.projects} flex w-full justify-between items-center` }>
 
-      <h2>{project}</h2>
-      <div>
         {links.map((link) => (
           <Link key={link.label} href={link.href}>
-            <span className="label">{link.label}</span> <LoadingIndicator />
+            <Image src={`/icons/${link.icon}.svg`}
+                   alt={link.icon} width={150} height={180} priority/>
           </Link>
         ))}
-      </div>
-      <NewButton text={'Add project'}
-                 onClick={() => setProject(n=>n+1)}/>
+
     </div>
   );
 }

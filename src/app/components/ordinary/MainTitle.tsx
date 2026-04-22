@@ -1,7 +1,5 @@
 import Image from "next/image";
 import PrimaryButton from "@/app/components/ui/buttons/PrimaryButton";
-import Projects from "@/app/components/ordinary/Projects/Projects";
-import NewButton from "@/app/components/ui/buttons/NewButton/NewButton";
 
 const MainTitle = () => {
   return (<div className={'flex justify-between'}>
@@ -14,12 +12,12 @@ const MainTitle = () => {
       <p className={'mb-[22px]'}>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
       <PrimaryButton text={'Hire me'} />
-      <Projects />
     </div>
     
     <div>
       <div>
-        <Image src={'/images/circle.svg'} alt={'circle'} width={486} height={486}></Image>
+        <Image src={'/images/circle.svg'}
+               alt={'circle'} width={486} height={486} priority/>
       </div>
     </div>
   </div>);
