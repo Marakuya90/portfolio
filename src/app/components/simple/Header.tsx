@@ -1,6 +1,7 @@
 'use client';
 
 import HeaderNav from "@/app/components/simple/HeaderNav";
+import Link from "next/link";
 interface Props {
   className?: string
 }
@@ -12,7 +13,7 @@ const navLinks: { label: string, href: string }[] = [
 const Header = ({className}: Props) => {
   return (
     <header className={`${className} flex w-2/5`}>
-      <p>Юлия Щёголева</p>
+      <Link href={"/"}>schegolevayulya_</Link>
       <HeaderNav links={navLinks}/>
     </header>
   )

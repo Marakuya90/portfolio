@@ -10,7 +10,8 @@ const Banner = () => {
   return (
     <div className={styles.banner}>
       <h1 className={'font-mono text-xs uppercase tracking-[0.4em] font-semibold'}>ЩËГОЛЕВА ЮЛИЯ &bull; FRONTEND DEVELOPER</h1>
-      <p className={'font-mono text-xs uppercase tracking-[0.6em]'}>{title}</p>
+      <p
+        className={`font-mono text-xs uppercase tracking-[0.6em] ${styles.glow}`}>{title}</p>
     </div>
   )
 }

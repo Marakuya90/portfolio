@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} 
         antialiased container pt-8 flex flex-col`}>
-      <Header className={'self-center'}/>
+      <Header className={'self-center pb-16'}/>
       <Banner/>
         {children}
       </body>
