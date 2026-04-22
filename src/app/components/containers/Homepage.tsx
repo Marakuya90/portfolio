@@ -1,10 +1,6 @@
-import MainTitle from "@/app/components/ordinary/MainTitle";
-import Projects from "@/app/components/ordinary/Projects/Projects";
+import Portfolio from "@/app/portfolio/Portfolio";
 
 const Homepage = () => {
-  return (<>
-    <MainTitle />
-    <Projects/>
-  </>);
+  return (<Portfolio />);
 }
 export default Homepage

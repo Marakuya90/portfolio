@@ -13,7 +13,6 @@ const MainTitle = () => {
         lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
       <PrimaryButton text={'Hire me'} />
     </div>
-    
     <div>
       <div>
         <Image src={'/images/circle.svg'}

@@ -5,7 +5,6 @@ import {useState} from "react";
 import NewButton from "@/app/components/ui/buttons/NewButton/NewButton";
 import Link from 'next/link'
 import Image from "next/image";
-import {maxHeaderSize} from "node:http";
 
 const links = [
   { href: 'https://kvadroom.ru', label: 'Квадрум', icon: 'kvadroom' },
@@ -15,7 +14,6 @@ const links = [
 ]
 
 const Projects = () => {
-  const [project, setProject] = useState(0);
 
   return (
     <div className={`${styles.projects} flex w-full justify-between items-center` }>

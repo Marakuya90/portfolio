@@ -1,21 +1,21 @@
 'use client';
 
-import PrimaryButton from "@/app/components/ui/buttons/PrimaryButton";
 import HeaderNav from "@/app/components/simple/HeaderNav";
-
-const navLinks: string[] = [
-  "Home",
-  "About me",
-  "Services",
-  "Projects",
-  "Testimonials",
-  "Contact",
+interface Props {
+  className?: string
+}
+const navLinks: { label: string, href: string }[] = [
+  {label: "Портфолио", href: '/'},
+  {label: "Резюме", href: '/cv'},
+  {label: "Контакты", href: '/contacts'}
 ]
-const Header = () => {
-  return(<header className={'flex justify-between w-full align-baseline mb-[120px]'}>
-    <HeaderNav links={navLinks} />
-    <PrimaryButton onClick={() => console.log("click")} text={"Download CV"} />
-    </header>)
+const Header = ({className}: Props) => {
+  return (
+    <header className={`${className} flex w-2/5`}>
+      <p>Юлия Щёголева</p>
+      <HeaderNav links={navLinks}/>
+    </header>
+  )
 }
 
 export default Header

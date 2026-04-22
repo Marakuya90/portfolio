@@ -1,14 +1,19 @@
 import {FC} from "react";
+import Link from "next/link";
 
 interface HeaderNavProps {
-  links: string[]
+  links: {href: string, label: string}[]
 }
 
 const HeaderNav: FC<HeaderNavProps> = ({links}) => {
-  return (<nav className={'flex'}>
-    <ul className={'flex justify-between gap-4 items-center'} >{links.map((item: string, index: number) => (
-      <li key={index} className={'cursor-pointer hover:text-orange-400'}>{item}</li>
-    ))}</ul>
+  return (<nav className={'flex ms-auto'}>
+    <ul className={'flex justify-between gap-4 items-center'}>
+      {links.map(({label, href}) => (
+        <Link key={label} href={href}>
+          {label}
+        </Link>
+      ))}
+    </ul>
   </nav>);
 }
 
