@@ -2,6 +2,8 @@ import styles from './ProjectCard.module.css'
 import Link from "next/link";
 import Image from "next/image";
 
+const basePath = '/portfolio'
+
 const ProjectCard = ({card}: {card: {name: string, image: string, id: number, year: string, link: string}}) => {
   return (
     <Link href={card.link} className={styles.card}>
@@ -9,7 +11,7 @@ const ProjectCard = ({card}: {card: {name: string, image: string, id: number, ye
         {card.year}
       </span>
       <strong className="text-md">{card.name}</strong>
-      <Image src={card.image} alt={card.name} width={300} height={180} priority/>
+      <Image src={`${basePath}${card.image}`} alt={card.name} width={300} height={180} priority/>
     </Link>
   )
 }
