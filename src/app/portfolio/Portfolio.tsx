@@ -6,7 +6,7 @@ const projects = [
     name: 'Квадрум',
     description: 'Агрегатор новостроек',
     image: 'images/kvadroom.png',
-    link: 'https://kvadroom.ru',
+    link: '/projects/kvadroom',
     year: '2024'
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     name: 'Квизард',
     description: 'Агрегатор новостроек',
     image: '/images/qwizard.png',
-    link: 'https://novostroy-m.ru',
+    link: '/projects/qwizard',
     year: '2025'
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     name: 'Новострой-М',
     description: 'Агрегатор новостроек',
     image: '/images/novostroy.png',
-    link: 'https://novostroy-m.ru',
+    link: '/projects/novostroy',
     year: '2026'
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     name: 'ZODIA',
     description: 'Астрологический сервис',
     image: '',
-    link: 'https://novostroy-m.ru',
+    link: '/projects/zodia',
     year: '2026'
   }
 ]
@@ -38,7 +38,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <>
-      <h2 className="text-3xl self-center mb-8">Проекты</h2>
+      <h2 className="text-3xl self-center mb-[16px] pb-[32px] pt-[32px]">Проекты</h2>
       <div className="grid grid-flow-col gap-8">
         {projects
           .filter(project => project.image)

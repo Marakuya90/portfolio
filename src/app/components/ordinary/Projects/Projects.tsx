@@ -1,8 +1,6 @@
 'use client'
 
 import styles from './Projects.module.css';
-import {useState} from "react";
-import NewButton from "@/app/components/ui/buttons/NewButton/NewButton";
 import Link from 'next/link'
 import Image from "next/image";
 

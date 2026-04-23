@@ -1,8 +1,9 @@
 import styles from './ProjectCard.module.css'
+import Link from "next/link";
 
-const ProjectCard = ({card}: {card: {name: string, image: string, id: number, year: string}}) => {
+const ProjectCard = ({card}: {card: {name: string, image: string, id: number, year: string, link: string}}) => {
   return (
-    <div className="flex flex-col gap-4">
+    <Link href={card.link} className={styles.card}>
       <span className="text-sm text-gray-400">
         {card.year}
       </span>
@@ -15,7 +16,7 @@ const ProjectCard = ({card}: {card: {name: string, image: string, id: number, ye
         borderRadius: '8px',
         overflow: 'hidden'
       }} className={''}/>
-    </div>
+    </Link>
   )
 }
 
