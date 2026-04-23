@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     name: 'Квадрум',
     description: 'Агрегатор новостроек',
-    image: 'images/kvadroom.png',
+    image: '/icons/kvadroom.svg',
     link: '/projects/kvadroom',
     year: '2024'
   },
@@ -13,7 +13,7 @@ const projects = [
     id: 2,
     name: 'Квизард',
     description: 'Агрегатор новостроек',
-    image: '/images/qwizard.png',
+    image: '/icons/qwizard.svg',
     link: '/projects/qwizard',
     year: '2025'
   },
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     name: 'Новострой-М',
     description: 'Агрегатор новостроек',
-    image: '/images/novostroy.png',
+    image: '/icons/nvs-m.svg',
     link: '/projects/novostroy',
     year: '2026'
   },

@@ -12,7 +12,6 @@ const links = [
 ]
 
 const Projects = () => {
-
   return (
     <div className={`${styles.projects} flex w-full justify-between items-center` }>
 

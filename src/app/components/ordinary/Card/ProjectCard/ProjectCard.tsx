@@ -1,5 +1,6 @@
 import styles from './ProjectCard.module.css'
 import Link from "next/link";
+import Image from "next/image";
 
 const ProjectCard = ({card}: {card: {name: string, image: string, id: number, year: string, link: string}}) => {
   return (
@@ -8,14 +9,7 @@ const ProjectCard = ({card}: {card: {name: string, image: string, id: number, ye
         {card.year}
       </span>
       <strong className="text-md">{card.name}</strong>
-      <div key={card.id} style={{
-        backgroundImage: `url(${card.image})`,
-        aspectRatio: '16/9',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        borderRadius: '8px',
-        overflow: 'hidden'
-      }} className={''}/>
+      <Image src={card.image} alt={card.name} width={300} height={180} priority/>
     </Link>
   )
 }
