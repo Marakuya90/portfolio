@@ -1,4 +1,5 @@
 import styles from './cv.module.css'
+import SliderPhoto from "@/app/components/ui/slider/SliderPhoto";
 
 const skills = [
   {
@@ -37,10 +38,18 @@ const experience = [
     period: 'январь 2024 - наст. время'
   }
 ]
-// const meetups = [
-//   'images/meetup/IMG_3236.webp',
-//   'images/meetup/IMG_3241.webp',
-//   'images/meetup/IMG_4022.webp']
+const meetups = [
+  'images/meetup/IMG_6479.webp',
+  'images/meetup/IMG_6504.webp',
+  // 'images/meetup/IMG_3236.webp',
+  'images/meetup/IMG_3241.webp',
+  'images/meetup/IMG_4022.webp',
+  'images/meetup/IMG_5337.webp',
+  'images/meetup/IMG_5340.webp',
+  'images/meetup/IMG_5350.webp',
+  'images/meetup/IMG_4025.webp',
+  'images/meetup/IMG_6508.webp',
+]
 
 const Cv = () => {
   return (
@@ -69,7 +78,7 @@ const Cv = () => {
       </section>
       <section>
         <h2 className={`${styles.heading} text-3xl`}>Участие в конференциях</h2>
-        {/*<SliderFoto images={meetups}/>*/}
+        <SliderPhoto images={meetups}/>
       </section>
     </div>
   );
