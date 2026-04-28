@@ -17,7 +17,7 @@ const skills = [
     stack: ['Figma', 'Адаптивный/Отзывчивый дизайн', 'Кроссбраузерность']
   },
   {
-    title: 'Контейнеризация::',
+    title: 'Контейнеризация:',
     stack: ['Docker', 'Docker-compose']
   },
   {
@@ -28,7 +28,7 @@ const skills = [
 ]
 const experience = [
   {
-    name: 'Новострой-М',
+    name: 'Новострой - М',
     position: 'Веб - разработчик',
     period: 'январь 2024 - наст. время'
   }

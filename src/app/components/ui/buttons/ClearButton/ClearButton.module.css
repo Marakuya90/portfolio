@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #171717;
+    filter: blur(0px);
+    transition: all 0.3s ease;
+}
+
+.button:active {
+    scale: 0.95;
+}
