@@ -3,10 +3,14 @@ import styles from './cv.module.css'
 const skills = [
   {
     title: 'Frontend разработка:',
-    stack: ['Vue.js(2,3)', 'Nuxt.js(SSR)',
-      'React', 'Next.js(SSR)', 'JavaScript',
+    stack: ['Vue.js(2,3)', 'Nuxt.js(SSR, SSG)',
+      'React', 'Next.js(SSR, SSG)', 'JavaScript',
       'TypeScript', 'HTML5', 'CSS3', 'SCSS',
-      'Tailwind CSS', 'Webpack', 'Vite']
+      'Tailwind CSS']
+  },
+  {
+    title: 'Сборка проекта:',
+    stack: ['Webpack', 'Vite']
   },
   {
     title: 'Управление состоянием:',
@@ -33,7 +37,11 @@ const experience = [
     period: 'январь 2024 - наст. время'
   }
 ]
-// const meetups = ['photo', 'photo', 'photo']
+// const meetups = [
+//   'images/meetup/IMG_3236.webp',
+//   'images/meetup/IMG_3241.webp',
+//   'images/meetup/IMG_4022.webp']
+
 const Cv = () => {
   return (
     <div className={styles.cv}>
@@ -61,8 +69,7 @@ const Cv = () => {
       </section>
       <section>
         <h2 className={`${styles.heading} text-3xl`}>Участие в конференциях</h2>
-        <p>здесь слайдер с фотками с митапов
-          </p>
+        {/*<SliderFoto images={meetups}/>*/}
       </section>
     </div>
   );
