@@ -4,13 +4,13 @@ const skills = [
   {
     title: 'Frontend разработка:',
     stack: ['Vue.js(2,3)', 'Nuxt.js(SSR)',
-      'React', 'Next.js (SSR)', 'JavaScript',
+      'React', 'Next.js(SSR)', 'JavaScript',
       'TypeScript', 'HTML5', 'CSS3', 'SCSS',
       'Tailwind CSS', 'Webpack', 'Vite']
   },
   {
     title: 'Управление состоянием:',
-    stack: ['Vuex', 'Pinia']
+    stack: ['Vuex', 'Pinia', 'Redux', 'MobX']
   },
   {
     title: 'UI/UX:',
