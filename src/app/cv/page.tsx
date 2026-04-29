@@ -29,7 +29,6 @@ const skills = [
     title: 'Системы контроля версий:',
     stack: ['Git (Git Flow, GitLab, GitHub)']
   }
-
 ]
 const experience = [
   {
@@ -41,14 +40,18 @@ const experience = [
 const meetups = [
   'images/meetup/IMG_6479.webp',
   'images/meetup/IMG_6504.webp',
-  // 'images/meetup/IMG_3236.webp',
+  'images/meetup/IMG_5986.webp',
   'images/meetup/IMG_3241.webp',
   'images/meetup/IMG_4022.webp',
   'images/meetup/IMG_5337.webp',
   'images/meetup/IMG_5340.webp',
   'images/meetup/IMG_5350.webp',
   'images/meetup/IMG_4025.webp',
-  'images/meetup/IMG_6508.webp',
+  'images/meetup/IMG_5996.webp',
+  'images/meetup/IMG_6022.webp',
+  'images/meetup/IMG_6482.webp',
+  'images/meetup/1522-Sber-FN25_20dec2025_Buzin_resized.jpg',
+  'images/meetup/4594-Sber-FN25_20dec2025_Buzin_resized.jpg'
 ]
 
 const Cv = () => {
