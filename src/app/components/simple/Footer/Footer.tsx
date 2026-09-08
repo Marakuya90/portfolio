@@ -8,7 +8,7 @@ const Footer = () => {
 
           {/* О разработчике */}
           <div className={styles.footerSection}>
-            <h3>Ваше Имя</h3>
+            <h3>Щеголева Юлия</h3>
             <p>
               Frontend разработчик, создаю современные и удобные интерфейсы.
             </p>
@@ -18,10 +18,10 @@ const Footer = () => {
           <div className={styles.footerSection}>
             <h4>Навигация</h4>
             <ul className={styles.list}>
-              <li><a href="#about">Обо мне</a></li>
-              <li><a href="#projects">Проекты</a></li>
-              <li><a href="#skills">Навыки</a></li>
-              <li><a href="#contact">Контакты</a></li>
+              <li><a href="/portfolio/cv">Обо мне</a></li>
+              <li><a href="/portfolio">Проекты</a></li>
+              {/*<li><a href="#skills">Навыки</a></li>*/}
+              {/*<li><a href="#contact">Контакты</a></li>*/}
             </ul>
           </div>
 

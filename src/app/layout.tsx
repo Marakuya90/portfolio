@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "PORTFOLIO | Schegoleva Yulya",
   description: "Портфолио фронтенд-разработчика"
 }
-const cvLink = '/portfolio/files/schegoleva_cv.pdf'
+const cvLink = '/portfolio/files/schegoleva_cv_new.pdf'
 
 export default function RootLayout({
   children,
