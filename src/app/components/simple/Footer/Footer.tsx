@@ -29,9 +29,9 @@ const Footer = () => {
           <div className={styles.footerSection}>
             <h4>Контакты</h4>
             <div className={styles.socials}>
-              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="#" target="_blank" rel="noopener noreferrer">Telegram</a>
+              <a href="https://github.com/Marakuya90" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://t.me/Schegoleva_Yulya" target="_blank" rel="noopener noreferrer">Telegram</a>
             </div>
           </div>
 

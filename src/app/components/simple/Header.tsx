@@ -8,7 +8,7 @@ interface Props {
 const navLinks: { label: string, href: string }[] = [
   {label: "Портфолио", href: '/'},
   {label: "Резюме", href: '/cv'},
-  {label: "Контакты", href: '/contacts'}
+  // {label: "Контакты", href: '/contacts'}
 ]
 const Header = ({className}: Props) => {
   return (
