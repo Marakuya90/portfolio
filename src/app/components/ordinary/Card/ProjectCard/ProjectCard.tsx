@@ -6,7 +6,7 @@ const basePath = '/portfolio'
 
 const ProjectCard = ({card}: {card: {name: string, image: string, id: number, year: string, link: string, color: string}}) => {
   return (
-    <Link href={card.link} className={styles.card}>
+    <Link href={card.link} className={styles.card} target="_blank">
       <span className="text-sm text-gray-400">
         {card.year}
       </span>

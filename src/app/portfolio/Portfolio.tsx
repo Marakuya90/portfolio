@@ -6,7 +6,7 @@ const projects = [
     name: 'Квадрум',
     description: 'Агрегатор новостроек',
     image: '/icons/kvadroom.svg',
-    link: '/projects/kvadroom',
+    link: 'https://kvadroom.ru/',
     color: '#EF3D2A',
     year: '2024'
   },
@@ -15,7 +15,7 @@ const projects = [
     name: 'Квизард',
     description: 'Агрегатор новостроек',
     image: '/icons/qwizard.svg',
-    link: '/projects/qwizard',
+    link: 'https://qwizard.me/zastroymsk',
     color: '',
     year: '2025'
   },
@@ -24,7 +24,7 @@ const projects = [
     name: 'Новострой-М',
     description: 'Агрегатор новостроек',
     image: '/icons/nvs-m.svg',
-    link: '/projects/novostroy',
+    link: 'https://www.novostroy-m.ru/',
     color: '',
     year: '2026'
   },
@@ -33,7 +33,7 @@ const projects = [
     name: 'ZODIA',
     description: 'Астрологический сервис',
     image: '',
-    link: '/projects/zodia',
+    link: 'https://zodiahealth.ru/',
     color: '',
     year: '2026'
   }
